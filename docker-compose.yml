@@ -6,7 +6,7 @@ services:
       #- SERVER_PORT=8083
       - SPRING_DATA_MONGODB_HOST=mongo_db
       - SPRING_DATA_MONGODB_PORT=27017
-      - SPRING_DATA_MONGODB_DATABASE=axon_schema
+      - SPRING_DATA_MONGODB_DATABASE=bank_schema
       - AXON_AXONSERVER_SERVERS=axon-server
     restart: always
     ports:
